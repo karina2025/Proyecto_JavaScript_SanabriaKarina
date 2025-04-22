@@ -1,13 +1,15 @@
+@import url('variables.css');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
   body {
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Poppins-semiBold', cursive;
     background: url('../storage/img/foto4.jpg') no-repeat center center/cover;
-    color: #f3f3f3;
+    color: #dd7411;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -56,7 +58,7 @@
   .hero h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: #d4af37;
+    color: #c58919;
     text-shadow: 2px 2px #000;
   }
   
