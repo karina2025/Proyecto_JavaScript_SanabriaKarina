@@ -1,0 +1,68 @@
+
+body{
+    background: url('../storage/img/foto3.jpg') no-repeat center center/cover;
+}
+
+
+.dnd-section {
+    background-color: #79373daf;
+    color: #f7ebeb;
+    padding: 2rem;
+    border-radius: 16px;
+    margin: 2rem auto;
+    max-width: 1000px;
+    box-shadow: 0 0 20px rgba(17, 16, 16, 0.4);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .dnd-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .dnd-image {
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  }
+  
+  .dnd-text {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .dnd-text h2 {
+    font-size: 1.8rem;
+    color: #e0c7c7;
+    margin-bottom: 1rem;
+  }
+  
+  .dnd-text ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+  
+  .dnd-text li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .dnd-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .dnd-button:hover {
+    background-color: #ff1f1f;
+  }
+  
