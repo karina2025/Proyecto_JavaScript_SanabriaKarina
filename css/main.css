@@ -7,7 +7,7 @@
 }
 
   body {
-    font-family: 'UncialAntiqua-Regular', cursive;
+    font-family: '', cursive;
     background: url('../storage/img/foto4.jpg') no-repeat center center/cover;
     color: #fdfdfd;
     height: 100vh;
@@ -83,6 +83,6 @@
   
   .btn:hover {
     transform: scale(1.05);
-    background-color: #e5bb87;
+    background-color: #e9951849;
   }
   
