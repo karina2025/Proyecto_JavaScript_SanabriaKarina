@@ -8,3 +8,24 @@
      src: url(../storage/font/oldenglishtextmt.ttf);
      
 }
+
+@font-face{
+
+    font-family:"MarckScript-Regular" ;
+     src: url(../storage/font/MarckScript-Regular.ttf);
+     
+}
+
+@font-face{
+
+    font-family:"PermanentMarker-Regular" ;
+     src: url(../storage/font/PermanentMarker-Regular.ttf);
+     
+}
+
+@font-face{
+
+    font-family:"UncialAntiqua-Regular" ;
+     src: url(../storage/font/UncialAntiqua-Regular.ttf);
+     
+}
