@@ -1,7 +1,52 @@
+@import url('variables.css');
 
-body{
-    background: url('../storage/img/foto3.jpg') no-repeat center center/cover;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+
+body {
+  min-height: 100vh;
+  background-image: url('../storage/img/foto3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/*******************boton de volver a la pagina principal*******************/
+.btn-volver {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #9f1c1c65; /* color estilo D&D */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.btn-volver:hover {
+  background-color: #0a0808a2;
+}
+
+.icono-volver {
+  width: 30px;
+  height: auto;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/************************************************/
+
 
 
 .dnd-section {
