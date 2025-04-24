@@ -9,7 +9,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url('../storage/img/foto3.jpg');
+  background-image: url('https://images.ctfassets.net/swt2dsco9mfe/86dfAe8ttA7zHKPBfQHvQ/b44219a7f6ffc5c094543e2dffde2767/Fizban_2560x1600_Wallpaper1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
-  background-color: #9f1c1c65; /* color estilo D&D */
+  background-color: #eb2020e1; /* color estilo D&D */
   color: white;
   border: none;
   padding: 10px 15px;
@@ -50,8 +50,8 @@ body {
 
 
 .dnd-section {
-    background-color: #79373daf;
-    color: #f7ebeb;
+    background-color: #5f2817dc;
+    color: #070707;
     padding: 2rem;
     border-radius: 16px;
     margin: 2rem auto;
@@ -76,18 +76,23 @@ body {
   .dnd-text {
     flex: 1;
     min-width: 280px;
+    font-family: 'UncialAntiqua-Regular';
+   
   }
   
   .dnd-text h2 {
     font-size: 1.8rem;
-    color: #e0c7c7;
+    color: #000000;
     margin-bottom: 1rem;
+    font-family: 'Cardinal-Alternate';
+
   }
   
   .dnd-text ul {
     list-style: none;
     padding-left: 0;
     margin-top: 1rem;
+    
   }
   
   .dnd-text li {
