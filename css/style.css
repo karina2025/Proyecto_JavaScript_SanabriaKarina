@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 * {
     box-sizing: border-box;
   }
@@ -5,7 +7,8 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'MarckScript-Regular';
+    font-size: 30px;
     background: #f0f0f5;
     display: flex;
     justify-content: center;
@@ -73,6 +76,7 @@
     background-color: #db85228a;
     color: rgb(2, 2, 2);
 
+
   }
   
   .caja.detalle {
@@ -88,6 +92,8 @@
     text-align: center;
     margin-bottom: 1rem;
     font-size: 1.6rem;
+    font-family: 'Cardinal-Alternate';
+    font-size: 40px;
   }
   
   label {
@@ -114,7 +120,7 @@
   
   button {
     margin-top: 15px;
-    background-color: white;
+    background-color: rgba(126, 44, 30, 0.671);
     color: #000000cb;
     font-weight: bold;
     border: none;

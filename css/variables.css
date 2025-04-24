@@ -29,3 +29,10 @@
      src: url(../storage/font/UncialAntiqua-Regular.ttf);
      
 }
+
+@font-face{
+
+    font-family:"Cardinal-Alternate" ;
+     src: url(../storage/font/Cardinal-Alternate.ttf);
+     
+}
