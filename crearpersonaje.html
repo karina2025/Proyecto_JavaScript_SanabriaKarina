@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crear Personaje</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <button class="btn-volver" onclick="history.back()">
+    <img src="storage/img/icono-largo.svg" alt="Volver" class="icono-volver"> Volver
+  </button>
+  <div class="contenedor">
+    <!-- Caja izquierda: Formulario -->
+    <div class="caja crear">
+      <h2>Crear Personaje</h2>
+      <form id="personajeForm">
+        <label>Nombre:
+          <input type="text" name="nombre" required />
+        </label>
+
+        <label>Raza:
+          <select name="raza" id="razaSelect" required>
+            <option value="">Seleccionar Raza</option>
+          </select>
+        </label>
+
+        <label>Clase:
+          <select name="clase" id="claseSelect" required>
+            <option value="">Seleccionar Clase</option>
+          </select>
+        </label>
+
+        <label>Género:
+          <select name="genero" required>
+            <option value="">Seleccionar Género</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </label>
+
+        <label>Fuerza:
+          <input type="number" name="fuerza" min="0" max="100" value="10" />
+        </label>
+
+        <label>Destreza:
+          <input type="number" name="destreza" min="0" max="100" value="10" />
+        </label>
+
+        <label>Inteligencia:
+          <input type="number" name="inteligencia" min="0" max="100" value="10" />
+        </label>
+
+        <label>Armadura:
+          <input type="text" name="armadura" placeholder="Nombre de la armadura" />
+        </label>
+
+        <label>Arma:
+          <input type="text" name="arma" placeholder="Nombre del arma" />
+        </label>
+
+        <label>Habilidades Especiales:
+          <textarea name="habilidades" placeholder="Ej: Magia de fuego, invisibilidad..."></textarea>
+        </label>
+
+        <label>Accesorios:
+          <input type="text" name="accesorios" placeholder="Anillo, collar, casco..." />
+        </label>
+
+        <button type="submit">Guardar Personaje</button>
+      </form>
+    </div>
+
+    <!-- Caja derecha: Resultado -->
+    <div class="caja detalle">
+      <h2>Detalles del Personaje</h2>
+      <div id="resultado">Aún no hay personaje guardado.</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
